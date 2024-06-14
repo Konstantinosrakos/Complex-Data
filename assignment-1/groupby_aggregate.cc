@@ -70,5 +70,5 @@ void performGroupbyAggregation(){
     groupbyFile << it->first << '\t' << it->second << std::endl;
   }
 
-  std::cout << "Rgroupby.tsv created." << std::endl;
+  std::cout << "Rgroupby.tsv created. " << std::endl;
 }
